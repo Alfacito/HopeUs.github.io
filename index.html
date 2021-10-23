@@ -4,16 +4,18 @@
 <title>HOPE</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
  <link rel="stylesheet" href="style.css">
+ 
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
 <style>
 	
 
-		body {
-		  margin: 2;
-		  background-color: black;
-		}
 
 		/* Style the header */
 		.header {
@@ -21,59 +23,10 @@
 		  padding: 10px;
 		  text-align: center;
 		}
-		ul {
-		  list-style-type: none;
-		  margin: 0;
-		  padding: 0;
-		  overflow: hidden;
-		  background-color: #333;
-		}
-
-		li {
-		  float: left;
-		}
-
-		li a, .dropbtn {
-		  display: inline-block;
-		  color: white;
-		  text-align: center; 
-		  padding: 14px 16px;
-		  text-decoration: none;
-		}
-
-		li a:hover, .dropdown:hover .dropbtn {
-		  background-color: red;
-		}   
-
-		li.dropdown {
-		  display: inline-block;
-		}
-
-		.dropdown-content {
-		  display: none;
-		  position: absolute;
-		  background-color: #f9f9f9;
-		  min-width: 160px;
-		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		  z-index: 1;
-		}
-
-		.dropdown-content a {
-		  color: black;
-		  padding: 12px 16px;
-		  text-decoration: none;
-		  display: block;
-		  text-align: left;
-		}
-
-		.dropdown-content a:hover {background-color: #f1f1f1;}
-
-		.dropdown:hover .dropdown-content {
-		  display: block;
-		}
+		
 		.card {
 		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-		  max-width: 290px;
+		  
 		  height: 350px;
 		  margin: auto;
 		  text-align: center;
@@ -86,201 +39,74 @@
 			
     
          	}
-
-		.button a {
-			  background-color: red; /* Green */
-			  border: none;
-			  color: white;
-			  padding: 15px 32px;
-			  text-align: center;
-			  text-decoration: none;
-			  display: inline-block;
-			  font-size: 16px;
-			  margin: 4px 2px;
-			  cursor: pointer;
-
-			  
-			}
+   
+			
 
 
-        }
-        .footer-distributed{
-         background-color: #292c2f;
-         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-         box-sizing: border-box;
-         width: 100%;
-         text-align: left;
-         font: bold 16px sans-serif;
-         
-         padding: 55px 50px;
-         margin-top: 80px;
-        }
-         
-        .footer-distributed .footer-left,
-        .footer-distributed .footer-center,
-        .footer-distributed .footer-right{
-         display: inline-block;
-         vertical-align: top;
-        }
-         
-        .footer-distributed .footer-left{
-         width: 40%;
-        }
-         
-        .footer-distributed h3{
-         color:  #ffffff;
-         font: normal 36px 'Cookie', cursive;
-         margin: 0;
-        }
-         
-        .footer-distributed h3 span{
-         color:  #5383d3;
-        }
-         
-         
-        .footer-distributed .footer-links{
-         color:  #ffffff;
-         margin: 20px 0 12px;
-         padding: 0;
-        }
-         
-        .footer-distributed .footer-links a{
-         display:inline-block;
-         line-height: 1.8;
-         text-decoration: none;
-         color:  inherit;
-        }
-         
-        .footer-distributed .footer-company-name{
-         color:  #8f9296;
-         font-size: 14px;
-         font-weight: normal;
-         margin: 0;
-        }
-         
-         
-        .footer-distributed .footer-center{
-         width: 35%;
-        }
-         
-        .footer-distributed .footer-center i{
-         background-color:  #33383b;
-         color: #ffffff;
-         font-size: 25px;
-         width: 38px;
-         height: 38px;
-         border-radius: 50%;
-         text-align: center;
-         line-height: 42px;
-         margin: 10px 15px;
-         vertical-align: middle;
-        }
-         
-        .footer-distributed .footer-center i.fa-envelope{
-         font-size: 17px;
-         line-height: 38px;
-        }
-         
-        .footer-distributed .footer-center p{
-         display: inline-block;
-         color: #ffffff;
-         vertical-align: middle;
-         margin:0;
-        }
-         
-        .footer-distributed .footer-center p span{
-         display:block;
-         font-weight: normal;
-         font-size:14px;
-         line-height:2;
-        }
-         
-        .footer-distributed .footer-center p a{
-         color:  #5383d3;
-         text-decoration: none;;
-        }
-         
-        .footer-distributed .footer-right{
-         width: 20%;
-        }
-         
-        .footer-distributed .footer-company-about{
-         line-height: 20px;
-         color:  #92999f;
-         font-size: 13px;
-         font-weight: normal;
-         margin: 0;
-        }
-         
-        .footer-distributed .footer-company-about span{
-         display: block;
-         color:  #ffffff;
-         font-size: 14px;
-         font-weight: bold;
-         margin-bottom: 20px;
-        }
-         
-        .footer-distributed .footer-icons{
-         margin-top: 25px;
-        }
-         
-        .footer-distributed .footer-icons a{
-         display: inline-block;
-         width: 35px;
-         height: 35px;
-         cursor: pointer;
-         background-color:  #33383b;
-         border-radius: 2px;
-         
-         font-size: 20px;
-         color: #ffffff;
-         text-align: center;
-         line-height: 35px;
-         
-         margin-right: 3px;
-         margin-bottom: 5px;
-        }
-         
-         
-        @media (max-width: 880px) {
-         
-         .footer-distributed{
-         font: bold 14px sans-serif;
-         
-         }
-         
-         .footer-distributed .footer-left,
-         .footer-distributed .footer-center,
-         .footer-distributed .footer-right{
-         display: block;
-         width: 100%;
-         margin-bottom: 40px;
-         text-align: center;
-         }
-         
-         .footer-distributed .footer-center i{
-         margin-left: 0;
-         }
-         .main {
-         line-height: normal;
-         font-size: auto;
-         }
-         
-        }
+        
 </style>
 </head>
 <body>
 
 <!-------------------------------------------Headerrrrrrrrrr------------------------------------------------------>
+<div class="container-fluid">
 <div class="header">
 
-  <h1 style="text-shadow: 2px 2px 5px white; font: bold; 44px 'Cookie', cursive; padding-right: 5px; padding-left: 5px;"><img src="images\o.jpg" height="70" width="100" style="border-radius: 20% 20% 50% 50%;" align="left"><img src="images\hope.jpg" height="70" width="200" style="padding: 0px; padding-right: 15px;  " align="center">"TOGEATHER WE can CHANGE Many Young LIVES"</h1>
+  <h1 style="text-shadow: 2px 2px 5px white; font: bold;  padding-right: 5px; padding-left: 5px;"><img src="images\o.jpg" height="70" width="100" style="border-radius: 20% 20% 50% 50%;" align="left"><img src="images\hope.jpg" height="70" width="200" style="padding: 0px; padding-right: 15px;  " align="center">"TOGEATHER WE CAN CHANGE MANY YOUNG LIVES"</h1>
+</div>
 </div>
 
-
 <!---------------------------------------------------------------Navbar-------------------------------------------->
-<div>
-<ul>
+<div class="container-fluid mt-3">
+	<nav class="navbar navbar-expand-sm bg- navbar-dark" style="background-image: linear-gradient(to right, black,skyblue);">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home &#127969;</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#M2">News & Press &#128226;</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#M1">Our Mission  &#128150;</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us &#128233;</a>
+        </li>  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">More</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+            <li><a class="dropdown-item" href="contact.html">FeedBack</a></li>
+            <li><a class="dropdown-item" href="#M2">Join Hope</a></li>
+          </ul>
+        </li>
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal">
+			    Updates
+			  </button>
+			  <li style="list-style-type:none; padding-left: 5px;">
+			  <a   href="payment.html" style="background-color: orange; display: inline-block; text-decoration: none; padding:10px 20px;  color: white; float: right; border-radius: 2px ;"  >Donate</a>
+			</li>
+      </ul>
+      <!--<form class="d-flex" style="padding-left:400px;">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>-->
+      
+    </div>
+
+  </div>
+  
+</nav>
+
+
+
+<!--<ul style="background-color:black;">
   <li style="background-color:;"><a href="index.html">Home &#127969;</a></li>
   <li><a href="#M2">News & Press &#128226;</a></li>
   <li><a href="#M1">Our Mission  &#128150;</a></li>
@@ -294,153 +120,219 @@
     </div>
   </li>
   <li style="float:right; padding-top:5px"><a  href="payment.html" style="background-color: orange; display: inline-block; padding:10px 20px;  border-radius: 25px ;"  >Donate</a></li>
-</ul>
+</ul>-->
 </div>
-<h1><img src="images\s.png" width="50%" height="420"><img src="images\e.jpg" width="50%" height="420"></h1>
-<h1><img src="images\bar.png"  width="100%" height="400"></h1>
+<br>
 
+
+
+
+<!-----------------------------------------modal----------------------------------------------------------------------------------------->
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">New Story</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <img src="images/32.png" width="100%" height="100%">
+        <img src="images/ss.jpg" width="100%" height="100%">
+      </div>
+
+      <!-- Modal footer -->
+      
+
+    </div>
+  </div>
+</div>
+
+<!-------------------------------------------------------------------------------front banner-------------------------------------------->
+
+
+<div class="container-fluid">
+   <div class="row" >
+    <div class="col-md-6">
+    <img src="images\s.png" height="415" width="100%">
+  </div>
+  <div class="col-md-6">
+    <img src="images\e.jpg" height="415" width="100%">
+  </div>
+</div>
+
+
+<!----------------------------------------------------------------------------------------------------------------------->
+<div class="container-fluid">
+<h1><img src="images\bar.png"  width="100%" height="400"></h1>
+</div>
 
 
 <!-----------------------------------------------------------cardsssssssssss------------------------>
+<div class="container-fluid" >
+<div class="row">
+  <div class="col-md-3">
+    <div class="card" >
+      <img src="images\aa.png" alt=""  height="150">
+      <p>Isabel is a thirteen year old girl who lives with her 3 siblings, her mum and dad. Her dad works construction when he can to support Isabel and the family, although he often finds himself out of work.</p>
+    </div>
+ </div>
 
-<ul>
-<li style="padding-right: 1%;width: 17%; padding-left: 5%;"><div class="card">
-  <img src="images\aa.png" alt="" width="100%" height="150">
-    <p>Isabel is a thirteen year old girl who lives with her 3 siblings, her mum and dad. Her dad works construction when he can to support Isabel and the family, although he often finds himself out of work.</p>
+
+
+  <div class="col-md-3">
+    <div class="card">
+     <img src="images\bb.png" alt="" width="" height="150">
+      <p>Anil is a young boy from South East Sri Lanka , who use Hope for Children's support to better his education.</p>
+    </div>
+  </div>
+
+
+   <!--<div class="col-md-3">
+      <div class="card">
+        <img src="images\cc.png" alt="" width="100%" height="150">
+        <p>Meet Emma, a 9 year old girl from Cyprus who started supporting Hope for Children when she was just 6 years old by setting up her Kids for Kids initiative to encourage more children her age to support the charity. </p>
+      </div>
+    </div>-->
+
+
+    <div class="col-md-3">
+      <div class="card">
+       <img src="images\dd.png" alt="" width="100%" height="150">
+        <p>Radhika is a 15-year-old girl from Nepal. She lives with her parents and elder sister who is currently pursuing her bachelor’s degree in Kathmandu.</p>
+      </div>
+     </div>
+     
+    <div class="col-md-3">
+      <div class="card">
+        <img src="images\ff.png" alt="" width="100%" height="150">
+        <p>Rashmi is a young girl from a remote area of Sri Lanka called Buttala. She is 13 years old and thanks to Hope for Children, she has discovered a passion for education that just a few years ago was not even a possibility.</p>
+      </div>
+    </div>
 </div>
-</li>
 
-<li style="padding-right: 1%; width: 17%;">
-<div class="card">
-  <img src="images\bb.png" alt="" width="100%" height="150">
 
-  <p>Anil is a young boy from South East Sri Lanka , who use Hope for Children's support to better his education.</p>
-</div>
-</li>
 
-<li style="padding-right: 1%;width: 17%;">
-<div class="card">
-  <img src="images\cc.png" alt="" width="100%" height="150">
-  
-  <p>Meet Emma, a 9 year old girl from Cyprus who started supporting Hope for Children when she was just 6 years old by setting up her Kids for Kids initiative to encourage more children her age to support the charity. </p>
-</div>
-</li>
-
-<li style="padding-right: 1%;width: 17%;">
-<div class="card">
-  <img src="images\dd.png" alt="" width="100%" height="150">
- 
-  <p>Radhika is a 15-year-old girl from Nepal. She lives with her parents and elder sister who is currently pursuing her bachelor’s degree in Kathmandu.</p>
-</div>
-</li>
-
-<li style="padding-right: 1%;width: 17%;">
-<div class="card">
-  <img src="images\ff.png" alt="" width="100%q" height="150">
-  
-  <p>Rashmi is a young girl from a remote area of Sri Lanka called Buttala. She is 13 years old and thanks to Hope for Children, she has discovered a passion for education that just a few years ago was not even a possibility.</p>
-</div>
-</li>
-</ul>
+<br>
 
 <!----------------------------------------Quotes--------------------------------------------------------------------->
-<div id="M1"><p style="color:white;font: normal 30px 'Cookie', cursive;">Our Mission:-</p><blockquote style="color:white;font: normal 25px 'Cookie', cursive;">"HOPE® creates life-changing wishes for children with critical illnesses. We seek to bring every eligible child’s wish to life because every child deserves a childhood. Make-A-Wish has become the world’s leading children’s wish-granting organization, serving children in nearly 50 countries worldwide. Together, generous donors, supporters, staff and more than 43,000 volunteers unite to deliver hope to wish kids and their families when they need it most. Please join us by making your donation to help us grant more life-changing wishes come true!"</blockquote></div>
-<div style="background-color:white; "><h1 style="font-family: monospace; font-size: 500%; text-align: center;"><img src="images\give.png" height="275" width="450" align="left">GIVE TODAY !</h1>
-<h3 style="text-align: center;">Your gift writes hope into the story of a child's life. Will you give today?</h3>
-<h1 align="center" style="padding: 25px;"><button class="button" ><a href="payment.html">Give Now</a></button>
-  <button class="button"><a href="payment.html">More ways to Give</a></button></h1>
+<div class="container-fluid" align="center">
+<div id="M1"><p style="color:black;font-size:25px;" align="left"><b>Our Mission:-</b></p><blockquote style="color:black;font-size: 15px" >"HOPE® creates life-changing wishes for children with critical illnesses. We seek to bring every eligible child’s wish to life because every child deserves a childhood. Make-A-Wish has become the world’s leading children’s wish-granting organization, serving children in nearly 50 countries worldwide. Together, generous donors, supporters, staff and more than 43,000 volunteers unite to deliver hope to wish kids and their families when they need it most. Please join us by making your donation to help us grant more life-changing wishes come true!"</blockquote></div>
 </div>
+<br>
 
+<!-----------------------------------------------------------------give away------------------------------------------------->
+<div class="container-fluid">
+<div style="background-color:white;  ">
+  <h1 style="font-family: monospace; font-size: 500%; text-align: center;">
+    <img src="images\give.png" height="275" width="450" align="left">GIVE TODAY !</h1>
+    <h3 style="text-align: center;">Your gift writes hope into the story of a child's life. Will you give today?</h3>
+    <h6 align="center" style="padding: 25px;">
+      <a style="padding:10px 20px;text-align:center; display: inline-block; background-color:red; border-radius:5px;text-decoration: none; color:white;" href="payment.html">Give Now</a>
+      <a style="padding:10px 20px;text-align:center; display: inline-block; background-color:deepskyblue; border-radius:5px; text-decoration: none; color: white;" href="payment.html">More ways to Give</a></h6>
+</div>
+</div>
+<br>
 <!------------------------------------------------------Banner------------------------------------------------------------------->
-<div class="banner" style="padding-top: 5px; "><img src="images\banner1.jpg"width="100%" ></div>
+<div class="container-fluid" style="padding-top: 5px; "><img src="images\banner1.jpg"width="100%" ></div>
 
-
+<br>
 
 <!------------------------------------------------------Banner with Form--------------------------------------------------------->
- <div id=M2 style="background-color:powderblue; width: 750;">
- <h2>
- 	<img src="images\pop.png" height="457" width="900" style="float: right;"><form action="" style="padding:30px ; padding-left:30px">
- 		<h6>Get Our Hope Stories News & Press
-Delivered straight to your inbox. You'll get exciting updates about the programs you're helping make possible.</h6>
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname" placeholder="Enter first Name"><br><br>
-  
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname" placeholder="Enter last Name"><br><br>
-  <label for="email">Email ID :</label>
-  <input type="email" id="email" name="email" placeholder="Enter Email"><br><br>
-  <label for="password">Password:</label>
-  <input type="password" id="password" name="password" placeholder="Enter Password"><br><br>
-  <input class="button" style="background-color:red; padding: 15px 32px;text-align: center;text-decoration: none;  border-radius: 20px; display: inline-block; font-size: 16px;
-margin: 4px 2px;cursor: pointer;" type="submit" value="Sign Up">
-
-</form>
- 
- </h2>
- </div>
+<div class="container-fluid" id=M2 >
+	<div class="row" style="background-color: powderblue;">
+    <div class="col-md-5">
+			 <div align="center">  
+			    <h5>Get Our Hope Stories News & Press Delivered straight to your inbox.</h5>
+			     <h6>You'll get exciting updates about the programs you're helping make possible.</h6>
+		      <form action="" style="padding:30px ; padding-left:30px">
+		        <label for="fname">First name:</label>
+		        <input type="text" id="fname" name="fname" placeholder="Enter first Name"><br><br>
+		        <label for="lname">Last name:</label>
+		        <input type="text" id="lname" name="lname" placeholder="Enter last Name"><br><br>
+		        <label for="email">Email ID :</label>
+		        <input type="email" id="email" name="email" placeholder="Enter Email"><br><br>
+		        <label for="password">Password:</label>
+		        <input type="password" id="password" name="password" placeholder="Enter Password"><br><br>
+		        <button type="submit" style="background-color:red; color:white; padding: 8px 16px; border-radius: 5px;">Sign Up</button>
+		      </form>
+		 </div>
+		</div>
+				<div class="col-md-7">
+		 	<img src="images\pop.png" height="400" width="100%" style="float:right;">
+		  </div>
+	</div>
+</div>
 <!---------------------------------Fooooooterrrrrrrrrrrrr------------------------------------------------------------------------->
+<br>
 
- <div class="footer-distributed" style="padding-top:5px">
- 
- <div class="footer-left">
- 
- <h3>Hope<span>Us</span></h3>
- 
- <p class="footer-links">
- <a href="index.html">Home</a>
- ·
- <a href="#">News</a>
- ·
- <a href="contact.html">Feedback</a>
- ·
- <a href="about.html">About</a>
- ·
- <a href="#">Faq</a>
- ·
- <a href="contact.html">Contact Us</a>
- </p>
- 
- <p class="footer-company-name">Hope &copy; 2021</p>
- </div>
- 
- <div class="footer-center">
- 
- <div>
- <i class="fa fa-map-marker"></i>
- <p><span>Malerkotla</span> India</p>
- </div>
- 
- <div>
- <i class="fa fa-phone"></i>
- <p>+91 0000000000</p>
- </div>
- 
- <div>
- <i class="fa fa-envelope"></i>
- <p><a href="alfacito035@gmail.com">alfacito035@gmail.com</a></p>
- </div>
- 
- </div>
- 
- <div class="footer-right">
- 
- <p class="footer-company-about">
- <span>About the company</span>
-Togeather we can change the Young Lives.
- </p>
- 
- <div class="footer-icons">
- 
- <a href="#"><i class="fa fa-facebook"></i></a>
- <a href="#"><i class="fa fa-twitter"></i></a>
- <a href="#"><i class="fa fa-linkedin"></i></a>
- <a href="#"><i class="fa fa-github"></i></a>
- <a href="#"><i class="fa fa-instagram"></i></a>
- 
- </div>
- 
- </div>
- 
+<div class="container-fluid" style="background-color: black;padding: 50px; " >
+	
+	<br>
+	<div class="row">
+	<div class="col-md-3">
+		<h4 style="color:white; padding-left: px;"><b>CONTACT</b></h4>
+		<p style="color:white;">
+			Baishnabghata Road<br>
+			city:Kolkata<br>
+			State:WEST BENGAL<br>
+			zip Code:700047<br>
+			Phone :00000000
+		</p>
+	</div>
+	<div class="col-md-3" >
+		<h4 style="color:white; padding-left: 30px;"><b>MENU</b></h4>
+		<ul style="list-style-type: none; ">
+		<li><a style="color:white; " href="">Home</a></li>
+		<li><a style="color:white;"  href="">News</a></li>
+		<li><a style="color:white;" href="">About</a></li> 
+		<li><a style="color:white;" href="">Join Hope</a></li>
+		<li><a style="color:white" href="">Contact</a></li>
+		<li><a style="color:white" href="">Our Mission</a></li>
+    </ul>
+	</div>
+	<div class="col-md-3" >
+		<h4 style="color:white; padding-left: 30px;"><b>RESENT STORIES</b></h4>
+		<ul style="list-style-type: none; ">
+		<li><a style="color:white;text-decoration: none; " href="">Story of Radhika</a></li>
+		<li><a style="color:white;text-decoration: none;"  href="">Story of Anil</a></li>
+		<li><a style="color:white;text-decoration: none;" href="">Story of Rashmi</a></li>
+	</div>
+	<div class="col-md-3" >
+		<h4 style="color:white; "><b>NEWSLETTER</b></h4>
+		<input type="text" style="padding-right:4px" placeholder="Your email address">
+    <button  type="submit"  style="background-color:red; padding-left: 4px;color: white;"><b>Sign UP</b></button><br>
+    <br>
+    <a style="text-decoration: none; padding:4px;color: blue;" href="#" class="fa fa-facebook"></a>
+		<a style="text-decoration: none; padding:4px;color:lightgreen;" href="#" class="fa fa-whatsapp"></a>
+		<a style="text-decoration: none;padding:4px;color:white;" href="#" class="fa fa-google"></a>
+		<a style="text-decoration: none; padding:4px;color:skyblue;"href="#" class="fa fa-linkedin"></a>
+		<a  style="text-decoration: none;padding:4px;color:red;" href="#" class="fa fa-youtube"></a>
+		<a style="text-decoration: none; padding:4px;color:magenta;" href="#" class="fa fa-instagram"></a>
+		<a style="text-decoration: none;padding:4px;color:red" href="#" class="fa fa-pinterest"></a>
+	</div>
+</div>
+</div>
+
+
+
+
+
+
+
+  
+   <script >
+setTimeout(function() {
+    $('#mybtn').modal('show');
+}, 2000);
+   </script>
+   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
 </body>
 </html>
 
